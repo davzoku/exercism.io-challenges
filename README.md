@@ -17,11 +17,13 @@ exercism configure --dir=C:\code\exercism
 
 4. Fetch 1 exercise from exercism
 ```
-exerism fetch javascript
+exercism fetch javascript
 ```
 
-5. Work on exercise; language-specific instructions:
+5. Work on exercise; language-specific instructions using hello-world example:
 	+ [javascript](#javascript) 
+    + [python](#python)
+    + [Go](#go)
 
 
 6. Once done, submit to exercism
@@ -45,3 +47,29 @@ npm install -g jasmine
 jasmine hello-world.spec.js
 ```
 
+# Python
+
+**To run py test**
+
++ Run `python exercise_name_test.py` in the exercise directory.
+
+# Go
+
+**To run Go test**
+
++ Run `go test` in the exercise directory.
+
+**To format Go code before submit**
+```
+gofmt -w hello-world.go
+```
+
+# Helpful Tips
+
+It was a minor pain to type `exercism` everytime I have to fetch/submit, so I added an alias in my powershell.
+```
+Set-Alias e exercism
+```
+With this alias, I can just `e fetch javascript` and `e submit hello-world.js`; saving a few keystrokes.
+
+Check out [my powershell profile](https://github.com/davzoku/dotfiles/blob/master/Microsoft.PowerShell_profile.ps1) for more posh shortcuts!
