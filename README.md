@@ -28,6 +28,7 @@ exercism fetch javascript
 	+ [Javascript](#javascript) 
     + [Python](#python)
     + [Go](#go)
+    + [Bash](#bash-on-windows-machine)
 
 
 6. Once done, submit to exercism
@@ -66,6 +67,30 @@ jasmine hello-world.spec.js
 **To format Go code before submit**
 ```
 gofmt -w hello-world.go
+```
+
+# Bash on Windows machine
+As I work with bash using “Bash on Ubuntu on Windows” from the Windows 10's Anniversary Update, I did a little workaround to make [bats](https://github.com/sstephenson/bats), the bash testing tool to work natively on my machine.
+
+1. git clone the bats repo
+```
+$ git clone https://github.com/sstephenson/bats.git
+
+```
+2. Follow the solution provided by [jonathandandries](https://github.com/sstephenson/bats/pull/234), which is not merged to master as of writing.
+	+ Change this line in the `bin/bats` file; `../libexec/bats` to `$(dirname $0)/../libexec/bats "$@"`
+3. Proceed with the install instructions as usual.
+```
+$ cd bats
+$ ./install.sh /usr/local
+```
+
+*If you are using Mac or Linux, you should be fine without having to perform this workaround.* 
+
+**To run Bash test**
+
+```
+bats hello_world_test.sh
 ```
 
 # Helpful Tips
