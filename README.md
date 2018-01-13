@@ -1,3 +1,7 @@
+# My exercism.io Solutions
+
+[Discuss my solutions on Exercism](http://exercism.io/davzoku)
+
 # Getting started with exercism on Windows
 
 1. Choco install the cli
@@ -21,8 +25,8 @@ exercism fetch javascript
 ```
 
 5. Work on exercise; language-specific instructions using hello-world example:
-	+ [javascript](#javascript) 
-    + [python](#python)
+	+ [Javascript](#javascript) 
+    + [Python](#python)
     + [Go](#go)
 
 
