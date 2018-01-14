@@ -75,7 +75,6 @@ As I work with bash using “Bash on Ubuntu on Windows” from the Windows 10's 
 1. git clone the bats repo
 ```
 $ git clone https://github.com/sstephenson/bats.git
-
 ```
 2. Follow the solution provided by [jonathandandries](https://github.com/sstephenson/bats/pull/234), which is not merged to master as of writing.
 	+ Change this line in the `bin/bats` file; `../libexec/bats` to `$(dirname $0)/../libexec/bats "$@"`
@@ -99,6 +98,8 @@ It was a minor pain to type `exercism` everytime I have to fetch/submit, so I ad
 ```
 Set-Alias e exercism
 ```
-With this alias, I can just `e fetch javascript` and `e submit hello-world.js`; saving a few keystrokes.
+To further shorten keywords like `fetch` and `submit`; you can simply use `f` and `s`. Just type `exercism` / `e` to see the list of commands
+
+With this alias, I can just type `e f javascript` and `e s hello-world.js`; saving a few keystrokes.
 
 Check out [my powershell profile](https://github.com/davzoku/dotfiles/blob/master/Microsoft.PowerShell_profile.ps1) for more posh shortcuts!
