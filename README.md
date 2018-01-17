@@ -1,6 +1,7 @@
 # My exercism.io Solutions
+[![Build Status](https://travis-ci.org/davzoku/exercism.io-challenges.svg?branch=master)](https://travis-ci.org/davzoku/exercism.io-challenges)
 
-[Discuss my solutions on Exercism](http://exercism.io/davzoku)
+> [Discuss my solutions on Exercism](http://exercism.io/davzoku)
 
 # Getting started with exercism on Windows
 

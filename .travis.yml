@@ -1,9 +1,35 @@
-language: python
-python:
-  - "3.6"
-# command to install dependencies
-install: "pip install pytest"
-# command to run tests
-script: pytest
+matrix:
+    include:
+    
+    - language: bash
+    script: make travis
+    
+    - language: go
+    
+    - language: java
+    jdk: oraclejdk8
+    
+    language: node_js
+    node_js:
+    - "6"
+    - "7"
+    install: npm install
+    
+    - language: python
+    python: "3.6"
+    install: "pip install pytest"
+    script: pytest
+    
+    - language: ruby
+    rvm:
+    - 2.2
+    - jruby
+    - 2.0.0-p247
+    
+    - language: rust
+    script:
+    - cargo build --verbose --all
+    - cargo test --verbose --all
+
 notifications:
   - email: false
