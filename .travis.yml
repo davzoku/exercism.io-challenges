@@ -1,9 +1,9 @@
 matrix:
   include:
   - language: python
-	python: "3.6"
-	install: "pip install pytest"
-	script: pytest
+    python: "3.6"
+    install: "pip install pytest"
+    script: pytest
     
   - language: ruby
-	rvm: 2.2
+    rvm: 2.2
