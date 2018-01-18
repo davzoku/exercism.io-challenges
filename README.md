@@ -26,50 +26,20 @@ exercism fetch javascript
 ```
 
 5. Work on exercise; language-specific instructions using hello-world example:
-	+ [Javascript](#javascript) 
-    + [Python](#python)
-    + [Go](#go)
     + [Bash](#bash-on-windows-machine)
-
+    + [Go](#go)
+    + [Haskell](#haskell)
+    + [Java](#java)
+	+ [Javascript](#javascript) 
+    + [Powershell](#powershell)
+    + [Python](#python)
+    + [Ruby](#ruby)
+    + [Rust](#rust)
 
 6. Once done, submit to exercism
 ```
 exercism submit hello-world.js
 ```
-
-# Javascript
-
-+ Solve the exercise
-
-**To run JS test**
-
-+ Install jasmine
-```
-npm install -g jasmine
-```
-
-+ Run test
-```
-jasmine hello-world.spec.js
-```
-
-# Python
-
-**To run py test**
-
-+ Run `python exercise_name_test.py` in the exercise directory.
-
-# Go
-
-**To run Go test**
-
-+ Run `go test` in the exercise directory.
-
-**To format Go code before submit**
-```
-gofmt -w hello-world.go
-```
-
 # Bash on Windows machine
 As I work with bash using “Bash on Ubuntu on Windows” from the Windows 10's Anniversary Update, I did a little workaround to make [bats](https://github.com/sstephenson/bats), the bash testing tool to work natively on my machine.
 
@@ -91,6 +61,93 @@ $ ./install.sh /usr/local
 
 ```
 bats hello_world_test.sh
+```
+
+# Go
+
+**To run Go test**
+
++ Run `go test` in the exercise directory.
+
+**To format Go code before submit**
+```
+gofmt -w hello-world.go
+```
+
+# Haskell 
+**To run hs test**
+```
+stack test
+```
+
+**To submit**
+```
+exercism submit src/lib.rs
+```
+
+# Java 
+
+**To run java test**
+```
+gradle test
+```
+
+**To submit**
+```
+exercism submit src/main/java/Greeter.java
+```
+
+# Javascript
+
+**Install testing framework**
+
++ Install jasmine
+```
+npm install -g jasmine
+```
+
+**To run js test**
+
++ Run test
+```
+jasmine hello-world.spec.js
+```
+# Powershell
+
+**To run ps1 test**
+
++ Run `Invoke-Pester` in the exercise directory
+
+# Python
+
+**To run py test**
+
++ Run `python exercise_name_test.py` in the exercise directory.
+
+
+# Ruby
+
+**Install testing framework**
+
++ Install minitest
+```
+gem install minitest
+```
+
+**To run rb test**
+```
+ruby hello_world_test.rb
+```
+
+# Rust
+**To run rs test**
+```
+cargo test
+```
+
+**To submit**
+```
+exercism submit src/lib.rs
 ```
 
 # Helpful Tips
