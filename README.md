@@ -3,6 +3,22 @@
 
 > [Discuss my solutions on Exercism](http://exercism.io/davzoku)
 
+# Progress
+
+| Language	| Completed	| Total	| Status	|
+|------------------|:-----------------:|------------|------------------|
+| Bash		| 4        	| 24   	|![Progress](http://progressed.io/bar/16) |
+| Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
+| Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
+| Java      	| 2        	| 89   	|![Progress](http://progressed.io/bar/2) |
+| Javascript	| 5        	| 87   	|![Progress](http://progressed.io/bar/5) |
+| Powershell	| 2        	| 2    	|![Progress](http://progressed.io/bar/100) |
+| Python    	| 20       	| 98   	|![Progress](http://progressed.io/bar/20) |
+| Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
+| Rust      	| 2        	| 78   	|![Progress](http://progressed.io/bar/2) |
+
+[List of Exercism Repositories](http://exercism.io/repositories)
+
 # Getting started with exercism on Windows
 
 1. Choco install the cli
