@@ -9,4 +9,6 @@ matrix:
     rvm: 2.2
   
   - language: go
+  
+  - language: java
     
