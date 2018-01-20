@@ -7,11 +7,12 @@
 
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
-| Bash		| 4        	| 24   	|![Progress](http://progressed.io/bar/16) |
+| Bash		| 6        	| 24   	|![Progress](http://progressed.io/bar/25) |
 | Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
 | Java      	| 2        	| 89   	|![Progress](http://progressed.io/bar/2) |
 | Javascript	| 5        	| 87   	|![Progress](http://progressed.io/bar/5) |
+| PHP		| 4        	| 61   	|![Progress](http://progressed.io/bar/6) |
 | Powershell	| 2        	| 2    	|![Progress](http://progressed.io/bar/100) |
 | Python    	| 20       	| 98   	|![Progress](http://progressed.io/bar/20) |
 | Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
@@ -47,6 +48,7 @@ exercism fetch javascript
     + [Haskell](#haskell)
     + [Java](#java)
 	+ [Javascript](#javascript) 
+    + [PHP](#php)
     + [Powershell](#powershell)
     + [Python](#python)
     + [Ruby](#ruby)
@@ -128,6 +130,16 @@ npm install -g jasmine
 ```
 jasmine hello-world.spec.js
 ```
+
+# PHP
+
+**Install testing framework**
+
++ Install PHPunit with Composer globally
+```
+composer global require phpunit/phpunit
+```
+
 # Powershell
 
 **To run ps1 test**
