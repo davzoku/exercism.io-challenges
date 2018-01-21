@@ -3,6 +3,8 @@
 
 > [Discuss my solutions on Exercism](http://exercism.io/davzoku)
 
+![](/img/coverimg.jpg)
+
 # Progress
 
 | Language	| Completed	| Total	| Status	|
