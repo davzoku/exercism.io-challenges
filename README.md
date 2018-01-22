@@ -3,17 +3,19 @@
 
 > [Discuss my solutions on Exercism](http://exercism.io/davzoku)
 
-![](/img/coverimg.jpg)
-
-## Solutions Explained
+**Solutions Explained**
 
 For detailed explanation of my solutions, you can refer to the [wiki](https://github.com/davzoku/exercism.io-challenges/wiki).
+
+[ ![Exercism Solutions Explained](/img/coverimg.jpg)](https://github.com/davzoku/exercism.io-challenges/wiki)
+
 
 ## Progress
 
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
 | Bash		| 6        	| 24   	|![Progress](http://progressed.io/bar/25) |
+| Erlang		| 2        	| 45   	|![Progress](http://progressed.io/bar/4) |
 | Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
 | Java      	| 2        	| 89   	|![Progress](http://progressed.io/bar/2) |
@@ -26,7 +28,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 
 [List of Exercism Repositories](http://exercism.io/repositories)
 
-## Getting started
+## Getting Started
 
 I am using a Windows 10 machine with Subsystem for Linux installed. If you require detailed guide for Windows, you can refer to the [wiki](todo)
 
