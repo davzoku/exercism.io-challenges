@@ -5,7 +5,11 @@
 
 ![](/img/coverimg.jpg)
 
-# Progress
+## Solutions Explained
+
+For detailed explanation of my solutions, you can refer to the [wiki](https://github.com/davzoku/exercism.io-challenges/wiki).
+
+## Progress
 
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
@@ -22,172 +26,24 @@
 
 [List of Exercism Repositories](http://exercism.io/repositories)
 
-# Getting started with exercism on Windows
+## Getting started
 
-1. Choco install the cli
-```
-choco install exercism-io-cli
-```
+I am using a Windows 10 machine with Subsystem for Linux installed. If you require detailed guide for Windows, you can refer to the [wiki](todo)
 
-2. Configure your API key from [here](http://exercism.io/account/key)
-```
-exercism configure --key=YOUR_API_KEY
-```
+Otherwise, you can get started with this [intro](http://exercism.io/how-it-works/newbie) from exercism.
 
-3. Change default directory if needed.
-```
-exercism configure --dir=C:\code\exercism
-```
+## Download Solutions
 
-4. Fetch 1 exercise from exercism
-```
-exercism fetch javascript
-```
-
-5. Work on exercise; language-specific instructions using hello-world example:
-    + [Bash](#bash-on-windows-machine)
-    + [Go](#go)
-    + [Haskell](#haskell)
-    + [Java](#java)
-	+ [Javascript](#javascript) 
-    + [PHP](#php)
-    + [Powershell](#powershell)
-    + [Python](#python)
-    + [Ruby](#ruby)
-    + [Rust](#rust)
-
-6. Once done, submit to exercism
-```
-exercism submit hello-world.js
-```
-# Bash on Windows machine
-As I work with bash using “Bash on Ubuntu on Windows” from the Windows 10's Anniversary Update, I did a little workaround to make [bats](https://github.com/sstephenson/bats), the bash testing tool to work natively on my machine.
-
-1. git clone the bats repo
-```
-$ git clone https://github.com/sstephenson/bats.git
-```
-2. Follow the solution provided by [jonathandandries](https://github.com/sstephenson/bats/pull/234), which is not merged to master as of writing.
-	+ Change this line in the `bin/bats` file; `../libexec/bats` to `$(dirname $0)/../libexec/bats "$@"`
-3. Proceed with the install instructions as usual.
-```
-$ cd bats
-$ ./install.sh /usr/local
-```
-
-*If you are using Mac or Linux, you should be fine without having to perform this workaround.* 
-
-**To run Bash test**
+You may download my solutions by cloning this repo on your machine.
 
 ```
-bats hello_world_test.sh
+git clone https://github.com/davzoku/exercism.io-challenges.git
 ```
 
-# Go
+## Feedback
 
-**To run Go test**
-
-+ Run `go test` in the exercise directory.
-
-**To format Go code before submit**
-```
-gofmt -w hello-world.go
-```
-
-# Haskell 
-**To run hs test**
-```
-stack test
-```
-
-**To submit**
-```
-exercism submit src/lib.rs
-```
-
-# Java 
-
-**To run java test**
-```
-gradle test
-```
-
-**To submit**
-```
-exercism submit src/main/java/Greeter.java
-```
-
-# Javascript
-
-**Install testing framework**
-
-+ Install jasmine
-```
-npm install -g jasmine
-```
-
-**To run js test**
-
-+ Run test
-```
-jasmine hello-world.spec.js
-```
-
-# PHP
-
-**Install testing framework**
-
-+ Install PHPunit with Composer globally
-```
-composer global require phpunit/phpunit
-```
-
-# Powershell
-
-**To run ps1 test**
-
-+ Run `Invoke-Pester` in the exercise directory
-
-# Python
-
-**To run py test**
-
-+ Run `python exercise_name_test.py` in the exercise directory.
+I appreciate any feedback via issues or comments on [Exercism](http://exercism.io/davzoku)
 
 
-# Ruby
 
-**Install testing framework**
 
-+ Install minitest
-```
-gem install minitest
-```
-
-**To run rb test**
-```
-ruby hello_world_test.rb
-```
-
-# Rust
-**To run rs test**
-```
-cargo test
-```
-
-**To submit**
-```
-exercism submit src/lib.rs
-```
-
-# Helpful Tips
-
-It was a minor pain to type `exercism` everytime I have to fetch/submit, so I added an alias in my powershell.
-```
-Set-Alias e exercism
-```
-To further shorten keywords like `fetch` and `submit`; you can simply use `f` and `s`. Just type `exercism` / `e` to see the list of commands
-
-With this alias, I can just type `e f javascript` and `e s hello-world.js`; saving a few keystrokes.
-
-Check out [my powershell profile](https://github.com/davzoku/dotfiles/blob/master/Microsoft.PowerShell_profile.ps1) for more posh shortcuts!

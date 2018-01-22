@@ -5,7 +5,7 @@ class Bob {
 	if (preg_match('/^\s*$/', $input)){
         return "Fine. Be that way!";
     }
-    else if (preg_match('/[A-Z]/', $input) && 
+    else if (preg_match('/[A-Z]/', $input) &&
             !preg_match('/[a-z]/', $input)){
         return "Whoa, chill out!";
     }
@@ -18,4 +18,3 @@ class Bob {
     }
 }
 ?>
-
