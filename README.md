@@ -15,7 +15,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
 | Bash		| 6        	| 24   	|![Progress](http://progressed.io/bar/25) |
-| Erlang		| 2        	| 45   	|![Progress](http://progressed.io/bar/4) |
+| Erlang		| 5        	| 45   	|![Progress](http://progressed.io/bar/11) |
 | Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
 | Java      	| 2        	| 89   	|![Progress](http://progressed.io/bar/2) |
@@ -26,7 +26,29 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 | Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
 | Rust      	| 2        	| 78   	|![Progress](http://progressed.io/bar/2) |
 
+<!-- Completed: 52 -->
+
 [List of Exercism Repositories](http://exercism.io/repositories)
+
+## :sparkles: Achievements :sparkles:
+
+> Because why not gamificate Exercism? *As inspired from [BenBarrett89](https://github.com/BenBarrett89/exercism)*
+
+### Outstanding Challenges :hourglass:
+- :beginner: _Hello World!_ Complete 6 problems in 6 languages (Python, Javascript, Go, PHP, Erlang, Rust)
+- :100: _The Hundred_ Complete 100 problems
+- :mortar_board:  _The Graduate_ Complete a Exercism track
+- :construction_worker: _Assemblers Assemble!_ Complete 5 problems in MIPS Assembly
+- :full_moon: _Bark at the Moon_ Complete 5 problems in Lua
+- :coffee: _Caffeine Addict_ Complete 5 problems in caffeine-esque languages (Ceylon, CoffeeScript, Java, ~JavaScript~:white_check_mark:,  Lisp Flavored Erlang)
+- :sheep: _In two shakes of a Lambda tail_ Complete 2 problems in functional languages with lambda logos (Clojure, ~Haskell~:white_check_mark:, Lisp Flavored Erlang, Racket, Scheme)
+- :boat: _Sail the Four Cs_ Complete 4 problems in the 4 C languages (C, C#, C++, Objective-C)
+- :scroll: _Who wrote this script?!_ Complete 5 problems in the 5 'script' languages (CoffeeScript, ECMAScript, ~JavaScript~ :white_check_mark:, PureScript, TypeScript)
+- :paw_prints: _Zoo_ Complete 5 problems in animal related languages (Ceylon, Go, OCaml, Perl 6, PHP, Pony, Prolog, Python, Swift)
+
+### Milestones Achieved! :trophy:
+- :keycap_ten: _Ben 10_ Complete 10 problems in any language (Python)
+- :surfer: _Hawaii 5-0_ Complete 50 problems
 
 ## Getting Started
 
@@ -44,8 +66,4 @@ git clone https://github.com/davzoku/exercism.io-challenges.git
 
 ## Feedback
 
-I appreciate any feedback via issues or comments on [Exercism](http://exercism.io/davzoku)
-
-
-
-
+I appreciate any feedback via issues or comments on [Exercism](http://exercism.io/davzoku). Alternatively, you could drop me an [email](mailto:walter.tengkw@gmail.com) or DM me on [Twitter](https://twitter.com/davzoku).
