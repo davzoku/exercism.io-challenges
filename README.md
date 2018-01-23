@@ -35,7 +35,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 > Because why not gamificate Exercism? *As inspired from [BenBarrett89](https://github.com/BenBarrett89/exercism)*
 
 ### Outstanding Challenges :hourglass:
-- :beginner: _Hello World!_ Complete 6 problems in 6 languages (Python, Javascript, Go, PHP, Erlang, Rust)
+- :beginner: _Hello World!_ Complete 6 problems in 6 languages (~Bash~:white_check_mark:, ~Python~:white_check_mark:)
 - :100: _The Hundred_ Complete 100 problems
 - :mortar_board:  _The Graduate_ Complete a Exercism track
 - :construction_worker: _Assemblers Assemble!_ Complete 5 problems in MIPS Assembly

@@ -1,2 +1,22 @@
 /desktop.ini
 /emoji.ico
+
+# Erlang
+tmp/
+_build/
+
+# Haskell
+.stack-work/
+
+# Java
+build/
+.gradle/
+
+# Powershell
+.version
+
+# Python
+__pycache__/
+
+# Rust
+target/
