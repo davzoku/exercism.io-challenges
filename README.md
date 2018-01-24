@@ -20,13 +20,13 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
 | Java      	| 2        	| 89   	|![Progress](http://progressed.io/bar/2) |
 | Javascript	| 5        	| 87   	|![Progress](http://progressed.io/bar/5) |
-| PHP		| 4        	| 61   	|![Progress](http://progressed.io/bar/6) |
+| PHP		| 6        	| 61   	|![Progress](http://progressed.io/bar/10) |
 | Powershell	| 2        	| 2    	|![Progress](http://progressed.io/bar/100) |
-| Python    	| 20       	| 98   	|![Progress](http://progressed.io/bar/20) |
+| Python    	| 21       	| 98   	|![Progress](http://progressed.io/bar/21) |
 | Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
 | Rust      	| 2        	| 78   	|![Progress](http://progressed.io/bar/2) |
 
-<!-- Completed: 52 -->
+<!-- Completed: 55 -->
 
 [List of Exercism Repositories](http://exercism.io/repositories)
 
@@ -35,7 +35,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 > Because why not gamificate Exercism? *As inspired from [BenBarrett89](https://github.com/BenBarrett89/exercism)*
 
 ### Outstanding Challenges :hourglass:
-- :beginner: _Hello World!_ Complete 6 problems in 6 languages (~Bash~:white_check_mark:, ~Python~:white_check_mark:)
+- :beginner: _Hello World!_ Complete 6 problems in 6 languages (~Bash~:white_check_mark:, ~PHP~:white_check_mark:, ~Python~:white_check_mark:)
 - :100: _The Hundred_ Complete 100 problems
 - :mortar_board:  _The Graduate_ Complete a Exercism track
 - :construction_worker: _Assemblers Assemble!_ Complete 5 problems in MIPS Assembly
