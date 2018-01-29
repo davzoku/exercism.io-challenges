@@ -14,7 +14,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
-| Bash		| 12        	| 24   	|![Progress](http://progressed.io/bar/50) |
+| Bash		| 16        	| 24   	|![Progress](http://progressed.io/bar/66) |
 | Erlang		| 5        	| 45   	|![Progress](http://progressed.io/bar/11) |
 | Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
@@ -26,7 +26,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 | Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
 | Rust      	| 2        	| 78   	|![Progress](http://progressed.io/bar/2) |
 
-<!-- Completed: 61 -->
+<!-- Completed: 65 -->
 
 [List of Exercism Repositories](http://exercism.io/repositories)
 
@@ -44,10 +44,10 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 - :sheep: _In two shakes of a Lambda tail_ Complete 2 problems in functional languages with lambda logos (Clojure, ~Haskell~:white_check_mark:, Lisp Flavored Erlang, Racket, Scheme)
 - :boat: _Sail the Four Cs_ Complete 4 problems in the 4 C languages (C, C#, C++, Objective-C)
 - :scroll: _Who wrote this script?!_ Complete 5 problems in the 5 'script' languages (CoffeeScript, ECMAScript, ~JavaScript~ :white_check_mark:, PureScript, TypeScript)
-- :paw_prints: _Zoo_ Complete 5 problems in animal related languages (Ceylon, Go, OCaml, Perl 6, ~PHP~:white_check_mark:, Pony, Prolog, ~Python~:white_check_mark:, Swift)
+- :paw_prints: _Zoo_ Complete 5 problems in at least 3 animal related languages (Ceylon, Go, OCaml, Perl 6, ~PHP~:white_check_mark:, Pony, Prolog, ~Python~:white_check_mark:, Swift)
 
 ### Milestones Achieved! :trophy:
-- :keycap_ten: _Ben 10_ Complete 10 problems in any language (Python)
+- :keycap_ten: _Ben 10_ Complete 10 problems in any language (Python, Bash)
 - :surfer: _Hawaii 5-0_ Complete 50 problems
 
 ## Getting Started
