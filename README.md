@@ -14,7 +14,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
-| Bash		| 17        	| 24   	|![Progress](http://progressed.io/bar/70) |
+| Bash		| 19        	| 24   	|![Progress](http://progressed.io/bar/79) |
 | Erlang		| 5        	| 45   	|![Progress](http://progressed.io/bar/11) |
 | Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
@@ -26,7 +26,7 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 | Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
 | Rust      	| 2        	| 78   	|![Progress](http://progressed.io/bar/2) |
 
-<!-- Completed: 66 -->
+<!-- Completed: 68 -->
 
 [List of Exercism Repositories](http://exercism.io/repositories)
 
