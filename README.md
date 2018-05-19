@@ -15,18 +15,20 @@ For detailed explanation of my solutions, you can refer to the [wiki](https://gi
 | Language	| Completed	| Total	| Status	|
 |------------------|:-----------------:|------------|------------------|
 | Bash		| 19        	| 24   	|![Progress](http://progressed.io/bar/79) |
+| D		| 5        	| 18   	|![Progress](http://progressed.io/bar/27) |
 | Erlang		| 5        	| 45   	|![Progress](http://progressed.io/bar/11) |
 | Go     	| 4        	| 98   	|![Progress](http://progressed.io/bar/4) |
 | Haskell   	| 1        	| 86   	|![Progress](http://progressed.io/bar/1) |
 | Java      	| 2        	| 89   	|![Progress](http://progressed.io/bar/2) |
 | Javascript	| 5        	| 87   	|![Progress](http://progressed.io/bar/5) |
-| PHP		| 6        	| 61   	|![Progress](http://progressed.io/bar/10) |
+| Lua	| 1        	| 80   	|![Progress](http://progressed.io/bar/5) |
+| PHP		| 6        	| 61   	|![Progress](http://progressed.io/bar/1) |
 | Powershell	| 2        	| 2    	|![Progress](http://progressed.io/bar/100) |
-| Python    	| 21       	| 98   	|![Progress](http://progressed.io/bar/21) |
+| Python    	| 23       	| 105   	|![Progress](http://progressed.io/bar/21) |
 | Ruby      	| 1        	| 91   	|![Progress](http://progressed.io/bar/1) |
 | Rust      	| 2        	| 78   	|![Progress](http://progressed.io/bar/2) |
 
-<!-- Completed: 68 -->
+<!-- Completed: 76 -->
 
 [List of Exercism Repositories](http://exercism.io/repositories)
 
