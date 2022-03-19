@@ -1,8 +1,8 @@
-class Twofer {
-    String twofer(String who) {
-        if (who != null) {
-        	return "One for " + who + ", one for me.";
+public class Twofer {
+    public String twofer(String name) {
+        if (name == null) {
+        	name = "you";
         }
-        return "One for you, one for me.";
+        return "One for " + name + ", one for me.";
     }
 }
